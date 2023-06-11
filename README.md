@@ -1,18 +1,18 @@
-## Ex-6
+## Ex-06:
 ## CALCULATING POWER USING RECURSION
-### Aim:
+### AIM:
 To Write a Java program to calculate the power of a number raised to other using recursion where the numbers a and b are to be entered by the user.
 
-### Procedure:
-* Create the class and declare the main method so that the JVM will identify the main program to run.
-* The user is prompted to enter the base number (a) and the power (b) using the Scanner class.
-* The power method is called with the base number (x) and the power (y).
-* In the power method, if the power (y) is not zero, it recursively calls itself with the same base number (x) and decremented power (y-1), and multiplies the base number with the result.
-* The recursion continues until the power reaches zero, at which point the method returns 1.
-* The result of the power operation is stored in the res variable, and finally the result is displayed to the user.
+### ALGORITHM:
+1. Create the class and declare the main method so that the JVM will identify the main program to run.
+2. The user is prompted to enter the base number (a) and the power (b) using the Scanner class.
+3. The power method is called with the base number (x) and the power (y).
+4. In the power method, if the power (y) is not zero, it recursively calls itself with the same base number (x) and decremented power (y-1), and multiplies the base number with the result.
+5. The recursion continues until the power reaches zero, at which point the method returns 1.
+6. The result of the power operation is stored in the res variable, and finally the result is displayed to the user.
 
-### Code:
-```
+### PROGRAM:
+```java
 import java.util.Scanner;
 public class Ex6
 {
@@ -36,8 +36,8 @@ public class Ex6
 }
 ```
 
-### Output:
+### OUTPUT:
 <img width="170" alt="6" src="https://github.com/KeerthikaNagarajan/Java-Ex-6/assets/93427089/baee48f5-462c-4396-9803-9bf164eeac60">
 
-### Result:
+### RESULT:
 Thus, a java program is created to calculate the power of a number raised to other using recursion.
